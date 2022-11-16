@@ -1,0 +1,435 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.conteiner{
+    width: 100vmax;
+    height: 80px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10 ;
+}
+.menu-area {
+    width: 40%;
+    margin-left: 750px;
+}
+
+.menu-area ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.menu-area ul li{
+    position: relative;
+}
+.menu-area ul li ::after{
+    content: '';
+    position: absolute;
+    width:0%;
+    height: 3px;
+    background: aqua;
+    bottom: -10px;
+    left: 0;
+    transition: .5s all ease-in-out;
+}
+.menu-area ul li :hover::after{
+    width: 100%;
+
+}
+.menu-area ul li a {
+    color: #fff;
+    font-family: lato;
+    font-size: 16px;
+    transition: 0.3s all ease-in-out;
+}
+.menu-area ul li a:hover{
+    color: aqua;
+}
+.main1{
+    display: flex;
+}
+.main3 img {
+    width: 500px ;
+    height:500px ;
+    margin-top: 80px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.web{
+    margin-top: 200px;
+    color: aliceblue;
+    background-color: black;
+    width: 300px;
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+    transform: translate(0.5s);
+    cursor: pointer;
+}
+.web:hover{
+    width: 400px;
+    color: blue;
+}
+.pregraph {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.section{
+    height: 98vh;
+    width: 100%;
+    background-color: rgb(87, 87, 87);
+    margin-top: 70px;
+}
+.section h1{
+    font-size: 80px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    color: aliceblue;
+}
+.card{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+   transition: transform 0.5s;
+} 
+.card1:hover{
+    transform: scale(1.1);
+}
+.card1{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(164, 164, 167);
+    margin: 0 auto; 
+    border-radius: 5px;
+    
+}
+.card1 h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.card1 p{
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 40px;
+    text-align: justify;
+}
+.btn{
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: rgb(255, 188, 19);
+    font-size: 20px;
+    width: 200px;
+} 
+.section2{
+    height: 98vh;
+    width: 100%;
+}
+.section2 h1{
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    padding-top: 150px;
+    font-size: 80px;
+    color: rgb(62, 57, 57);
+}
+.img-area{
+    
+    display: flex;
+    
+}
+
+.img-area img{
+    width: 150px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 80px;
+    border-radius: 15px;
+    padding-bottom: 50px;
+    transition: transform 0.3s;
+}
+.img-area :hover{
+    transform: scale(1.1);
+}
+.section3{
+    height: 98vh;
+    width: 100%;
+}
+.section3 h1{
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    padding-top: 50px;
+    font-size: 80px;
+}
+
+.blog1{
+    border: 1px solid black;
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;  
+    margin-top: 30px;
+}
+.blog1{
+    display: flex;
+    transition: transform 0.3s;
+}
+.column img{
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+}
+.heading h2{
+    font-family: roboto ;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.blog-btn{
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: rgb(255, 215, 0);
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+}
+.heading p{
+    margin-top:10px ;
+    margin-left:30px ;
+    font-family: roboto;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 10px;
+}
+.heading h3{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.blog1:hover{
+    transform: scale(1.1);
+}
+.section4{
+    height: 120vh;
+    width: 100%;
+    margin-top: 200px;
+    background-color: rgb(87, 86, 86);
+}
+.section4 h1{
+    color: white;
+    padding-top:200px ;
+    text-align: center;
+    font-family:Italianno  ;
+    font-size: 60px;
+}
+.contract-about{
+    display: flex;
+    flex-direction: column;
+}
+.form-main{
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.form1{
+    display: flex;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px ;
+}
+.name{
+    padding-left: 60px;
+}
+.form2{
+    display: flex;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+.gmail{
+    padding-left: 60px;
+}
+.form3{
+    display: flex;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    height: 60px;
+}
+.message{
+    padding-left: 40px;
+}
+.sub-btn{
+    color: black;
+    background-color: rgb(255, 217, 0);
+    width: 120px;
+    height: 40px;
+    margin-left: 270px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+body {
+  background-color: white;
+}
+.conteiner{
+    width: 80vmax;
+    height: 80px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10 ;
+}
+.menu-area {
+    width: 80%;
+    margin-left: 20px;
+}
+.web{
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: black;
+    width: 300px;
+}
+.pregraph {
+    margin-top: 400px;
+    margin-left: 40px;
+    text-align: justify;
+    margin-right: 10px;
+    }
+.main3 img {
+    width: 300px ;
+    height:300px ;
+    margin-top: 170px;
+    margin-left: -370px;
+    border-radius: 10px;
+    }   
+.web:hover{
+    width: 300px;
+    color: #fff;
+    }  
+.section{
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(87, 87, 87);
+    margin-top: 70px;
+    }          
+.card{
+    display:inline;
+    margin-top: 100px;
+    transition: transform 0.5s;
+    }    
+    .card1{
+        width: 250px;
+        height: 250px;
+        
+    } 
+    .card1 h2 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .card1 p{
+        font-size: 15px;
+        margin: 10px;
+        margin-top: 20px;
+        text-align: justify;
+        margin-left: 5px;
+    }
+    .btn{
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: rgb(255, 188, 19);
+        font-size: 20px;
+        width: 200px;
+    } 
+    .section2{
+        height: 220vh;
+        width: 0%;
+    }
+    .section2 h1{
+        text-align: center;
+        font-family: 'Italianno', cursive;
+        padding-top: 50px;
+        padding-left: 100px;
+        font-size: 80px;
+        color: rgb(62, 57, 57);
+    }
+    .img-area{
+        display: inline ;
+        border: 1px solid black;
+        width: 500px;
+        height: 600px;
+        margin: 0 auto;  
+        margin-top: 0px;
+        
+    }
+    .img-area img{
+        width: 150px;
+        height: 150px;
+        padding-left: 130px;
+        border-radius: 15px;
+        padding-bottom: 50px;
+        transition: transform 0.3s;
+    }
+    .section3{
+        height: 120vh;
+        width: 100%;
+    }
+    .blog1{
+        display: flex;
+    }
+    .column img{
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    .heading h2{
+        font-family: roboto ;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .heading h3{
+        margin-left: 20px;
+        margin-top: 5px;
+        font-size:15px ;
+    }
+    .heading p{
+        margin-top:10px ;
+        margin-left:20px ;
+        width: 200px;
+        font-family: roboto;
+        font-size: 10px;
+        text-align: justify;
+        margin-right: 10px;
+    }
+    .blog-btn{
+        margin-top: 10px;
+        margin-left: 20px;
+        background-color: rgb(255, 215, 0);
+        width: 100px;
+        height: 20px;
+        border-radius: 5px;
+    }
+    .blog1{
+        border: 1px solid black;
+        width: 380px;
+        height: 150px;
+        margin: 0 auto;  
+        margin-top: 30px;
+    }
+    
+}
